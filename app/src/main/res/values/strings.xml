@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">图像去底</string>
+
+    <string-array name="binarize_modes">
+        <item>Otsu 自动</item>
+        <item>固定阈值</item>
+        <item>自适应</item>
+    </string-array>
+</resources>
