@@ -23,11 +23,9 @@ jobs:
 
       - name: Set up Android SDK
         uses: android-actions/setup-android@v3
-
-      - name: Install SDK components
-        run: |
-          yes | sdkmanager --licenses > /dev/null 2>&1 || true
-          sdkmanager "platform-tools" "platforms;android-34" "build-tools;34.0.0" > /dev/null
+        with:
+          packages: 'platforms;android-34 build-tools;34.0.0 platform-tools'
+          accept-android-sdk-licenses: true
 
       - name: Set up Gradle
         uses: gradle/actions/setup-gradle@v4
@@ -42,3 +40,4 @@ jobs:
         with:
           name: app-debug
           path: app/build/outputs/apk/debug/*.apk
+          if-no-files-found: error
