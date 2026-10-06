@@ -9,7 +9,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#E8EAF6"
+        android:background="#303F9F"
         android:orientation="horizontal"
         android:padding="2dp">
 
@@ -21,6 +21,7 @@
             android:layout_weight="1"
             android:minWidth="0dp"
             android:text="输入"
+            android:textColor="#FFFFFF"
             android:textSize="14sp" />
 
         <Button
@@ -31,6 +32,7 @@
             android:layout_weight="1"
             android:minWidth="0dp"
             android:text="输出"
+            android:textColor="#FFFFFF"
             android:textSize="14sp" />
 
         <Button
@@ -41,6 +43,7 @@
             android:layout_weight="1"
             android:minWidth="0dp"
             android:text="重置"
+            android:textColor="#FFFFFF"
             android:textSize="14sp" />
 
         <Button
@@ -51,6 +54,7 @@
             android:layout_weight="1"
             android:minWidth="0dp"
             android:text="保存"
+            android:textColor="#FFFFFF"
             android:textSize="14sp" />
     </LinearLayout>
 
@@ -87,6 +91,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="128"
+            android:textColor="#212121"
             android:textSize="14sp" />
 
         <Switch
@@ -94,6 +99,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="反色"
+            android:textColor="#212121"
             android:textSize="14sp" />
     </LinearLayout>
 
@@ -106,6 +112,7 @@
         android:maxLines="1"
         android:padding="6dp"
         android:text="未选择输入文件夹"
+        android:textColor="#424242"
         android:textSize="13sp" />
 
     <FrameLayout
@@ -133,7 +140,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="#E8EAF6"
+        android:background="#303F9F"
         android:orientation="horizontal"
         android:padding="2dp">
 
@@ -145,6 +152,7 @@
             android:layout_weight="1"
             android:minWidth="0dp"
             android:text="上一页"
+            android:textColor="#FFFFFF"
             android:textSize="14sp" />
 
         <Button
@@ -155,6 +163,7 @@
             android:layout_weight="1"
             android:minWidth="0dp"
             android:text="跳过"
+            android:textColor="#FFFFFF"
             android:textSize="14sp" />
 
         <Button
@@ -165,6 +174,7 @@
             android:layout_weight="1"
             android:minWidth="0dp"
             android:text="下一页"
+            android:textColor="#FFFFFF"
             android:textSize="14sp" />
     </LinearLayout>
 
